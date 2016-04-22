@@ -1,0 +1,49 @@
+/**
+ * ThreeCol plugin styles
+ */
+
+#mailview-tc-mid
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+#mailview-tc-right
+{
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 712px;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+}
+
+#messagelistfooter
+{
+  height: 21px;
+}
+
+#mailpreviewframe
+{
+/*  bottom: 0;*/
+}
+
+#mailpreviewtoggle
+{
+	background: url(buttons.png) -3px 0 no-repeat;
+}
+
+#mailpreviewtoggle.enabled
+{
+	background-position: -28px 0;
+}
+#messagecontframe
+{
+	border-radius: 4px 4px 4px 4px;
+}
